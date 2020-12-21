@@ -1,0 +1,64 @@
+div.row{
+    margin: 3px;
+}
+.product-background{
+    background-color:rgb(242, 244, 246);
+}
+div.card{
+   
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+div.card div.card-body p.card-title{
+
+    color: black;
+    transition-property: all;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+div.card:hover{
+    border: 0px;
+    box-shadow: 0 10px 10px 0  rgb(149, 153, 161);
+}
+
+div.card:hover div.card-body p.card-title{
+    color:#007bff;
+}
+
+div.card .card-img-top{
+    height:200px;
+    width:80%;
+    align-self: center;
+    padding: 15px;
+}
+
+hr.horizontalLine{
+    border-top: 2px solid #bbb;
+}
+
+.linethrough{
+    color:  rgb(149, 153, 161);
+    margin-left: 15px;
+    font-weight: 400;
+}
+.freedelivery{
+    font-size: 14px;
+    color: rgb(255, 115, 0);
+}
+
+.percentOff{
+    color:green;
+    font-size: 14px !important;
+    margin-left: 15px;
+}
+.pagination{
+    /* padding-left: 50%; */
+    text-align: center;
+    margin-left: 35%;
+}
+.pagination>li>a { border-radius: 50% !important;margin: 0 10px;}

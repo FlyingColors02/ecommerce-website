@@ -1,0 +1,38 @@
+
+
+div.awssld{
+    display: block;
+    position: relative;
+    width: 98%;
+    margin-left: 10px;
+    height: 350px;
+    margin-top: 10px;
+    z-index: 9;
+}
+.awssld {
+    --organic-arrow-height: 20px;
+    --control-button-background:white;
+    --control-button-width: 5%;
+    --control-button-height: 20%;
+    --loader-bar-color:rgb(160, 159, 159);
+    --loader-bar-height:0.5px;
+    
+}
+.awssld button {
+    border-radius: 100%;
+}
+
+.awssld__bullets{
+    bottom: -17px;
+   
+}
+.awssld__bullets button {
+    height: 5px;
+    width: 5px;
+}
+div.awssld__timer.awssld__timer--animated.awssld__timer--run{
+    --timer-height:0.5px;
+}
+.awssld__timer{
+    height:0.5px;
+}

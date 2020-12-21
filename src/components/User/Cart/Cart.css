@@ -1,0 +1,57 @@
+
+div {
+    white-space: nowrap;
+}
+p, h6{
+    white-space: pre-wrap !important;
+}
+.img-responsive{
+    height:150px;
+    width: 150px;
+}
+.fa.fa-minus-circle, .fa.fa-plus-circle{
+    color: #97b0c8;
+    font-size: 20px;
+}
+.badge-quantity{
+    color: #445566;
+    background-color: rgb(255, 255, 255);
+    margin-left:10px;
+    margin-right:10px;
+    padding-left:7px;
+    padding-right: 7px;
+    border-radius: 3px;
+}
+.badge-quantity:hover{
+    background-color: #dad7d3;
+    font-weight: 700;
+    
+}
+.fa.fa-minus-circle:hover, .fa.fa-plus-circle:hover{
+    color: #4983b9;
+    font-size: 18px;
+}
+.instock{
+    color: green;
+}
+
+
+div.background-order{
+    background-color: #f2f4f8;
+}
+.content-of-order{
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 0 4px 10px 0  rgb(149, 153, 161);
+    margin: 20px;
+    padding: 0px;
+   
+}
+
+.card-img-order{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height:200px;
+    width: 300px
+}

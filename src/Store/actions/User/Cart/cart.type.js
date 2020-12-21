@@ -1,0 +1,8 @@
+export const PRE_LOADING = "PRE_LOADING";
+export const ADD_TO_CART_DETAILS = "ADD_TO_CART_DETAILS";
+export const CART_ERROR = "CART_ERROR";
+export const REMOVE_CART_DATA = "REMOVE_CART_DATA";
+export const ADD_QUANTITY = "ADD_QUANTITY";
+export const REMOVE_QUANTITY = "REMOVE_QUANTITY";
+export const FETCH_CART_DATA = "FETCH_CART_DATA";
+export const UPDATE_CART_DATA = "UPDATE_CART_DATA";

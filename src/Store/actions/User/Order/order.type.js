@@ -1,0 +1,5 @@
+export const LOADING = "LOADING";
+export const PLACE_ORDER = "PLACE_ORDER";
+export const FETCH_USER_ORDER = "FETCH_USER_ORDER";
+export const REMOVE_USER_ORDER_ITEM = "REMOVE_USER_ORDER_ITEM";
+export const ORDER_ERROR = "ORDER_ERROR";

@@ -1,0 +1,13 @@
+.row.footer-row{
+    padding-top: 5px;
+    margin-left: 30px;
+}
+h6.footer-container{
+    color: white;
+}
+.footer-amYflip.bg-primary{
+    float: bottom;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}

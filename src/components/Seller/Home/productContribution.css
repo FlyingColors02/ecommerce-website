@@ -1,0 +1,74 @@
+div.row{
+    margin: 3px;
+}
+
+div.card{
+    border: 1px;
+    border-radius: 8px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+p.card-title-sell{
+    font-size: 22px;
+}
+div.card div.card-body p.card-title-sell{
+
+    color: black;
+    transition-property: all;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+div.card:hover{
+    box-shadow: 0 10px 10px 0  rgb(149, 153, 161);
+}
+
+div.card:hover div.card-body p.card-title-sell{
+    color:#007bff;
+}
+
+div.card {
+ 
+    margin: 20px;
+}
+div.card-body{
+    height: fit-content;
+}
+.card-img-contribution{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height:250px;
+    width: 60%
+}
+
+hr.horizontalLine{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 3px solid #bbb;
+}
+
+.linethrough{
+    color:  rgb(149, 153, 161);
+    margin-left: 15px;
+    font-weight: 400;
+}
+.freedelivery{
+    font-size: 14px;
+    color: rgb(255, 115, 0);
+}
+
+.percentOff{
+    color:green;
+    font-size: 14px !important;
+    margin-left: 15px;
+}
+.pagination{
+    padding-right: 30%;
+   display: inline-flex;
+
+}
+.pagination>li>a { border-radius: 50% !important;margin: 0 10px;}
