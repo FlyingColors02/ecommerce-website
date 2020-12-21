@@ -1,0 +1,6 @@
+.pagination{
+    padding-right: 30%;
+   display: inline-flex;
+
+}
+.pagination>li>a { border-radius: 50% !important;margin: 0 10px;}

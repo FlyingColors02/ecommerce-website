@@ -1,0 +1,113 @@
+.main-container{
+    text-align: center;
+}
+.sell-product-content{
+    margin:20px;
+    height: 300px;
+    width:97%;
+    background-color: rgb(21, 21, 49);
+    text-align: center;
+    color: white;
+}
+
+.login-sell-button {
+    background: #ff9900 none repeat scroll 0 0;
+    border:none;
+  border-color: #faa630;
+  color: #ffffff;
+  font-size: 18px;
+  width: 35%;
+  height: 30%;
+  line-height: 38px;
+  padding: 0;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 10px;
+  align-content: center;
+  text-decoration: none;
+}
+.login-sell-button:hover {
+    background: #fa8907 none repeat scroll 0 0;
+    text-align: center;
+    font-weight: 650;
+  }
+.login-sell-button-text{
+    color:white;
+    text-align: center;
+}
+.login-sell-button-text:hover{
+    color:white;
+    font-weight: 650;
+    text-align: center;
+    text-decoration: none;
+    text-underline-position: none;
+}
+.start-selling-button {
+    background: #ff9900 none repeat scroll 0 0;
+    border: none;
+  border-color: #faa630;
+  color: #ffffff;
+  font-size: 22px;
+  width: 20%;
+  height: 55px;
+  line-height: 38px;
+  padding: 0;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 25px;
+  align-content: center;
+  margin-top:20px;
+}
+.start-selling-button:hover {
+    background: #fa8907 none repeat scroll 0 0;
+    text-align: center;
+    font-weight: 650;
+  }
+  .registration-sell-button-text{
+    color:white;
+    text-align: center;
+}
+.registration-sell-button-text:hover{
+    color:white;
+    font-weight: 650;
+    text-align: center;
+    text-decoration: none;
+    text-underline-position: none;
+}
+.start-selling-div{
+    color: white;
+    text-align: center;
+}
+.login-sell-div{
+    margin-top: 70px;
+}
+.title-start-selling{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.login-sell-text{
+    font-size: 20px;
+}
+.why-sell-on-amYflip{
+    text-align: center;
+}
+.text-why-amYflip{
+    padding-top: 20px;
+    font-weight: 800;
+    color: #5e5f63;
+}
+
+.content-why-sell{
+    margin-top: 50px;
+}
+
+.col-md-3, .col-md-5{
+    margin: 40px;
+}
+
+.why-sell-image{
+    height: 180px;
+    width: 200px;
+    border-radius: 50%;
+}

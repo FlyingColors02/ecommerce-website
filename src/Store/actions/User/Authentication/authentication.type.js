@@ -1,0 +1,14 @@
+export const USER_LOGIN = "USER_LOGIN";
+export const LOADING = "LOADING";
+export const USER_REGISTRATION = "USER_REGISTER";
+export const LOGGEDIN_USER = "LOGGEDIN_USER";
+export const BANK_DETAILS = "BANK_DETAILS";
+export const PASSWORD = "PASSWORD";
+export const REMOVE_DEBIT_CARD ="REMOVE_DEBIT_CARD";
+export const REMOVE_CREDIT_CARD="REMOVE_CREDIT_CARD";
+export const USER_NAME = "USER_NAME";
+export const MOBILE_NUMBER = "MOBILE_NUMBER";
+export const DELIVERY_ADDRESS = "DELIVERY_ADDRESS";
+export const USER_ERROR = "USER_ERROR";
+export const DELETE_USER_ACCOUNT = "DELETE_USER_ACCOUNT";
+export const LOG_OUT = "LOG_OUT";

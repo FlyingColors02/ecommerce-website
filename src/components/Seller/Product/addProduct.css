@@ -1,0 +1,247 @@
+
+ /* OTHERS */
+  
+ *:focus {
+    outline: none !important;
+} 
+.srv-validation-message{
+    color: red;
+    font-size: 15px;
+}
+.container{
+  white-space: pre-wrap;
+}
+
+form[id=registration]{
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }  
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(172, 169, 169);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.registration-sell{
+   background-color:  #007bff;
+   white-space: pre-wrap !important;
+   text-align: center;
+    }
+
+.panel h2{ 
+    color:black;
+    font-size:17px; 
+    margin:0 0 8px 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.panel h5{
+  color: grey;
+  text-align: left;
+}
+.panel p { 
+    color:black;
+     font-size:14px;
+     line-height:24px;}
+div.row{
+  margin:0px;
+ 
+  font-family: fontawesome;
+  
+}
+textarea#description.registration-sell-input{
+  background: #f7f7f7 none repeat scroll 0 0;
+border: 1px solid #d4d4d4;
+border-radius: 4px;
+font-size: 17px;
+line-height: 38px;
+border-bottom: 2px solid #5fbae9 !important;
+font-family: fontawesome;
+padding-left: 20px;
+display: flex;
+width: 100%;
+}
+.registration-sell-form input.registration-sell-input, .CategorySelect{
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 17px;
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 2px solid #5fbae9 !important;
+  font-family: fontawesome;
+  padding-left: 20px;
+  display: flex;
+  width: 100%;
+}
+.cardStyle{
+  border:1px;
+   border-radius:5px;
+   border-style:groove;
+   margin: 20px;
+   padding: 20px;
+}
+
+.main-div.registration-sell {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  border-color:black;
+  margin: 20px auto 20px;
+  max-width: 90%;
+  padding: 10px 50px 10px 52px;
+  white-space: pre-wrap;
+}
+
+.registration-sell-form .form-group {
+  margin-bottom:18px !important; font-family: Arial, Helvetica, sans-serif;
+
+
+}
+#productdetails, #productimages, #productcategory {
+  display: none;
+}
+.registration-sell-form{ text-align:center;
+margin-bottom: 0px;}
+
+.registration-sell-form  .registration-sell-button {
+    background: #ff9900 none repeat scroll 0 0;
+  border-color: #fa9507;
+  color: #ffffff;
+  font-size: 18px;
+  width: 100%;
+  height: 38px;
+  line-height: 33px;
+  padding: 0;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 5px;
+
+}
+.left{
+  text-align: left;
+  color: rgb(82, 85, 90);
+  margin-top: 15px;
+}
+.registration-sell-form  .registration-sell-file-button {
+  background: #ffb302 none repeat scroll 0 0;
+border-color: #fa9507;
+color: #ffffff;
+font-size: 16px;
+width: 35%;
+height: 28px;
+line-height: 28px;
+padding: 0;
+text-align: center;
+font-weight: 400;
+border-radius: 5px;
+}
+.registration-sell-form .registration-sell-button:hover{
+    background: #fa8907 none repeat scroll 0 0;
+    text-align: center;
+    font-weight: 650;
+  }
+  .registration-sell-form  .registration-sell-file-button:hover{
+    background: #fa8907 none repeat scroll 0 0;
+    text-align: center;
+    font-weight: 500;
+  }
+  hr.horizontalLine{
+    border-top: 3px solid #bbb;}
+
+    hr.horizontalLine-white{
+      border-top: 3px solid white;}
+  
+   .login-bottom{
+     font-size: 17px;
+   } 
+   .info-sell{
+     margin-bottom: 20px;
+   }
+.condition p{
+    margin-top: 10px;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 22px;
+}
+.error-message{
+  white-space:pre-wrap !important;
+  color: red !important;
+  font-size: 16px !important;
+}
+input::placeholder{
+    font-size: 17px;
+}
+.registration-sell-form .condition {
+    margin-top: 10px;
+   text-align: left;
+   font-size: 12px;
+    
+}
+ .copyrightmark{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.container.sell-registration-text{
+  color: white;
+  text-align: left;
+}
+
+
+input:-internal-autofill-selected {
+  font-size: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  border: 1px solid #c0c2c2;
+  border-bottom: 2px solid #5fbae9 !important;
+  background: rgb(232, 240, 254) !important;
+
+}
+select{
+  /* border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px; */
+  font-size: 14px;
+}
+
+.placeOrder-button{
+  background: white none repeat scroll 0 0;
+  border-color: rgb(50, 52, 54);
+  border-width: 1px;
+  color: rgb(87, 139, 236);
+  font-size: 18px;
+  width: 100%;
+  height: 38px;
+  line-height: 33px;
+  padding: 0;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 2px;
+}
+.placeOrder-button:hover{
+  background:  rgb(87, 139, 236) none repeat scroll 0 0;
+  border-color: white;
+  color: white;
+  text-align: center;
+  font-weight: 650;
+}
