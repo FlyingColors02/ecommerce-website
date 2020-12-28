@@ -24,10 +24,10 @@ class ProductsByCategory extends Component{
         for(var i=1; i<=pageNo;i++){
             if(parseInt(this.props.match.params.pageNo) === i){
                 console.log("hii");   
-            page.push(<li className="page-item active" key={i}><a className="page-link" href={`/products/category/${this.props.match.params.category}/pageNo/pageNo=${i}`}>{i}</a></li>)                
+            page.push(<li className="page-item active" key={i}><a className="page-link" href={`/productsByCategory/category/${this.props.match.params.category}/pageNo/pageNo=${i}`}>{i}</a></li>)                
             }
             else{
-                page.push(<li className="page-item" key={i}><a className="page-link" href={`/products/category/${this.props.match.params.category}/pageNo/pageNo=${i}`}>{i}</a></li>)                
+                page.push(<li className="page-item" key={i}><a className="page-link" href={`/productsByCategory/category/${this.props.match.params.category}/pageNo/pageNo=${i}`}>{i}</a></li>)                
             }
             
         }
@@ -86,7 +86,7 @@ class ProductsByCategory extends Component{
                             :
                             
                             <li className="page-item">
-                            <a className="page-link"  href={`/products/category/${this.props.match.params.category}/pageNo/pageNo=${parseInt(this.props.match.params.pageNo)-1}`} aria-label="Previous">
+                            <a className="page-link"  href={`/productsByCategory/category/${this.props.match.params.category}/pageNo/pageNo=${parseInt(this.props.match.params.pageNo)-1}`} aria-label="Previous">
                                 <span aria-hidden="true">«</span>
                                 <span className="sr-only">Previous</span>
                             </a>
@@ -106,7 +106,7 @@ class ProductsByCategory extends Component{
                         </li>
                         :
                         <li className="page-item">
-                        <a className="page-link" href={`/products/category/${this.props.match.params.category}/pageNo/pageNo=${parseInt(this.props.match.params.pageNo)+1}`} aria-label="Next">
+                        <a className="page-link" href={`/productsByCategory/category/${this.props.match.params.category}/pageNo/pageNo=${parseInt(this.props.match.params.pageNo)+1}`} aria-label="Next">
                             <span aria-hidden="true">»</span>
                             <span className="sr-only">Next</span>
                         </a>
